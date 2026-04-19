@@ -140,7 +140,7 @@
   }
 
   // ✅ Salva no banco
-  const res = await fetch("https://portalescolar-kgtz.onrender.com/avisos", {
+  const res = await fetch("https://portalescolar-kgtz.onrender.com", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ titulo, descricao, data })
